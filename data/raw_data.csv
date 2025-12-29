@@ -1,0 +1,11 @@
+website_category,time_spent,frequency,day_type,productivity_label,productivity_score
+Education,120,5,Weekday,Productive,85
+Coding,180,4,Weekday,Productive,90
+Social Media,90,8,Weekend,Unproductive,25
+Entertainment,110,6,Weekend,Unproductive,30
+Education,60,3,Weekday,Productive,70
+News,40,2,Weekday,Neutral,55
+Gaming,150,7,Weekend,Unproductive,20
+Coding,200,5,Weekday,Productive,95
+Social Media,45,4,Weekday,Unproductive,35
+Education,90,4,Weekend,Productive,75
