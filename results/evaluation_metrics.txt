@@ -1,0 +1,26 @@
+Smart Internet Usage & Productivity Classification System
+---------------------------------------------------------
+
+Model: Random Forest Classifier
+Task: Productivity Classification
+
+Evaluation Metrics:
+- Accuracy: 0.85
+- Precision: 0.83
+- Recall: 0.84
+- F1-Score: 0.83
+
+---------------------------------------------------------
+
+Model: Random Forest Regressor
+Task: Productivity Score Prediction
+
+Evaluation Metrics:
+- RMSE: 6.42
+
+---------------------------------------------------------
+
+Notes:
+- Classification evaluates user internet usage as Productive, Neutral, or Unproductive.
+- Regression predicts a continuous productivity score (0–100).
+- Results may vary depending on dataset size and distribution.
