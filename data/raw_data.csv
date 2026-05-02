@@ -1,11 +1,31 @@
 website_category,time_spent,frequency,day_type,productivity_label,productivity_score
 Education,120,5,Weekday,Productive,85
-Coding,180,4,Weekday,Productive,90
+Coding,180,4,Weekday,Productive,92
+Research,150,3,Weekday,Productive,88
 Social Media,90,8,Weekend,Unproductive,25
 Entertainment,110,6,Weekend,Unproductive,30
-Education,60,3,Weekday,Productive,70
+Gaming,140,7,Weekend,Unproductive,20
+Shopping,80,5,Weekend,Unproductive,35
+Messaging,60,6,Weekday,Neutral,50
 News,40,2,Weekday,Neutral,55
-Gaming,150,7,Weekend,Unproductive,20
+Education,70,3,Weekend,Productive,75
 Coding,200,5,Weekday,Productive,95
-Social Media,45,4,Weekday,Unproductive,35
-Education,90,4,Weekend,Productive,75
+Streaming,130,6,Weekend,Unproductive,28
+Social Media,50,4,Weekday,Unproductive,38
+Research,100,3,Weekday,Productive,80
+Gaming,160,8,Weekend,Unproductive,18
+Education,90,4,Weekday,Productive,82
+Coding,170,5,Weekday,Productive,91
+Messaging,45,3,Weekday,Neutral,52
+Shopping,75,4,Weekend,Unproductive,33
+Streaming,120,5,Weekend,Unproductive,27
+News,35,2,Weekday,Neutral,57
+Research,140,4,Weekday,Productive,86
+Social Media,100,7,Weekend,Unproductive,22
+Entertainment,115,6,Weekend,Unproductive,29
+Coding,210,6,Weekday,Productive,96
+Education,85,3,Weekday,Productive,78
+Messaging,55,5,Weekday,Neutral,49
+Gaming,155,7,Weekend,Unproductive,21
+Streaming,125,6,Weekend,Unproductive,26
+Shopping,90,5,Weekend,Unproductive,34
