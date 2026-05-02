@@ -1,5 +1,6 @@
 import pandas as pd
 import pickle
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
@@ -21,3 +22,13 @@ with open("../results/evaluation_metrics.txt", "w") as f:
     f.write(report)
 print("Classifier trained successfully.")
 print("Accuracy:", accuracy)
+
+feature_importance = model.feature_importances_
+features = ["website_category", "time_spent", "frequency", "day_type"]
+
+plt.figure()
+plt.barh(features, feature_importance)
+plt.xlabel("Importance")
+plt.title("Feature Importance")
+plt.savefig("../results/feature_importance.png")
+plt.show()
