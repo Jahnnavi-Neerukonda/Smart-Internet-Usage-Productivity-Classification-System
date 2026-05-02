@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import ConfusionMatrixDisplay
+
 df = pd.read_csv("../data/processed_data.csv")
 X = df[["website_category", "time_spent", "frequency", "day_type"]]
 y = df["productivity_label"]
@@ -31,4 +33,9 @@ plt.barh(features, feature_importance)
 plt.xlabel("Importance")
 plt.title("Feature Importance")
 plt.savefig("../results/feature_importance.png")
+plt.show()
+
+ConfusionMatrixDisplay.from_estimator(model, X_test, y_test)
+plt.title("Confusion Matrix")
+plt.savefig("../results/confusion_matrix.png")
 plt.show()
